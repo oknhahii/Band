@@ -1,0 +1,53 @@
+@media (min-width: 1024px) {
+  header #mobile-menu-btn {
+    display: none;
+  }
+}
+/* tablet */
+@media (min-width: 740px) and(max-width: 1023px) {
+}
+/*mobile*/
+@media (max-width: 739px) {
+  header #search {
+    display: none;
+  }
+  header {
+    overflow: hidden;
+  }
+  #nav > li {
+    display: block;
+  }
+  header #mobile-menu-btn {
+    height: 100%;
+    float: right;
+  }
+  header #mobile-menu-btn .awesome-menu {
+    color: white;
+    padding: 12px 24px;
+    line-height: 22.4px;
+  }
+  #content #Descripsion-concert .Sub-descripsion-Concert {
+    max-width: max-content;
+  }
+
+  #content #Descripsion-concert .backc {
+    max-height: fit-content;
+  }
+  #content #Descripsion-concert .Sub-descripsion-Concert:nth-child(2) {
+    margin: 16px 0px;
+  }
+  #content .img-block {
+    max-width: 230px;
+  }
+  #content #band #concept-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    #content .sub-concept-img {
+    margin: 14px 0;
+}
+    #content #band #concept-img {
+    padding-top: 32px;
+}
+}

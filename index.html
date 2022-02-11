@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon"/> 
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css"> 
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>The Band</title>
+</head>
+<!-- -thẻ gì 
+    -ở đâu
+    -có class hoặc id không
+-->
+<body>
+    <div id="main">
+        <header id="Header-id">
+            <!--Begin navigation-->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">More
+                        <i class="fas fa-caret-down"></i>
+                    </a> 
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>    
+                </li>
+            </ul>
+            <!--End navigation-->
+            
+            <!--Begin search-->
+            <div id="search">
+                <i class="awesome-search fas fa-search">
+                    <!--cái element của font là nằm tron i tag-->
+                </i>
+            </div>
+            <div id="mobile-menu-btn">
+                <i class="fas fa-bars awesome-menu"></i>
+            </div>
+            <!--End search-->
+        </header>
+       <!--End navigation--> 
+       <!--Begion slider-->    
+       <div id="slider">
+            <div id="text-content">
+                <h3 class="text-heading">New York</h3>
+                <div class="text-descripsion">The atmosphere in New York is lorem ipsum.</div>
+            </div>
+        </div> 
+       <!--End slider--> 
+        <!--Begin Content-->  
+        <div id="content">
+            <!--Begin About-->
+            <div id="band" class="row">
+                <div class="concept-section">
+                    <h2>THE BAND</h2>
+                    <p>We love music</p>
+                </div>
+                <p>
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div id="concept-img">
+                    <div class="sub-concept-img">
+                        <p>Name</p>
+                        <img src="./assets/img/bandmember.jpg" class="img-block">
+                    </div>
+                    <div class="sub-concept-img">
+                        <p>Name</p>
+                        <img src="./assets/img/bandmember.jpg" class="img-block">
+                    </div>
+                    <div class="sub-concept-img">
+                        <p>Name</p>
+                        <img src="./assets/img/bandmember.jpg" class="img-block">
+                    </div>
+                </div>
+            </div>
+            <!--End About-->
+            <!--Begin Tour-->
+            <div id="tour">
+                <div class="row tour-block">
+                    <div class="concept-section">
+                        <h2>TOUR DATES</h2>
+                        <p>Remember to book your tickets!</p>
+                    </div>
+                    <div id="table">
+                        <div class="row">
+                            <p>September</p>
+                            <div class="sticker">
+                                Sold out
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>October</p>  
+                            <div class="sticker">
+                                Sold out
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>November</p> 
+                            <div id="sticker-special">
+                                3
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Descripsion-concert">
+                        <div class="Sub-descripsion-Concert">
+                            <div class="backc"><img src="./assets/img/newyork.jpg" alt="New York"></div>
+                                <p>
+                                    <b>New York</b>
+                                </p>
+                                <p>Fri 27 Nov 2016</p>
+                                <P>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</P>
+                                <button>Buy Tickets</button>
+                        </div>
+                        <div class="Sub-descripsion-Concert">
+                            <div class="backc"><img src="./assets/img/paris.jpg" alt="Paris"></div>
+                                <p>
+                                    <b>Paris</b>
+                                </p>
+                                <p>Sat 28 Nov 2016</p>
+                                <P>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</P>
+                                <button>Buy Tickets</button>
+                        </div>
+                        <div class="Sub-descripsion-Concert">
+                            <div class="backc"><img src="./assets/img/sanfran.jpg" alt="San Francisco"></div>   
+                                <p>
+                                    <b>San Francisco</b>
+                                </p>
+                                <p>Sun 29 Nov 2016</p>
+                                <P>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</P>
+                                <button>Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Tour-->
+            <div id="contact">
+                <div class="row " >
+                    <div class="concept-section ">
+                        <h2>CONTACT</h2>
+                        <p>Fan? Drop a note!</p>
+                    </div>
+                    <div class="row" id="cantact-section">
+                        <div class="col col-half ">
+                            <p><i class="fas fa-map-marker-alt"></i>Chicago, US</p>
+                            <p><i class="fas fa-phone-alt"></i>Phone: +00 151515</p>
+                            <p><i class="fas fa-envelope"></i>Email: mail@mail.com</p>
+                        </div>
+                        <form action="" class="col col-half" id="form-contact">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" placeholder="Name" class="form-control" required>
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" placeholder="Email" class="form-control"  required>
+                                </div>
+                            </div>
+                            <div class="col col-full mt-8">
+                                <input type="text" placeholder="Message" class="form-control" style="width:100%" required>
+                            </div>
+                            <input type="submit" id="Submit"  value="SEND">
+                            <div class="clear"></div>
+                        </form>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/img/map.jpg" alt="" id="map">
+        </div>
+        <!--End Content-->
+        <!--Begin footer--> 
+        <footer>
+            <div class="row">
+                <ul>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-snapchat"></i></li>
+                    <li><i class="fab fa-pinterest-p"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                </ul>
+            </div>
+            <div id="copyright">
+                <p>Powered by</p> 
+                <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+            </div>
+        </footer>
+        <!--End footer-->
+    </div>
+    <script>
+        var header=document.getElementById("Header-id");
+        var mobileMenu=document.getElementById("mobile-menu-btn");
+        var headerHeight= header.clientHeight;
+
+        //Đóng mở mobile menu.
+        mobileMenu.onclick =function(){
+            var isClosed= header.clientHeight===headerHeight;
+            if(isClosed){
+                header.style.height='auto';
+            }           
+            else{
+                header.style.height=null;
+            } 
+        }
+        //Tự động đống mobile menu khi mà chọn dc một 
+        //nav
+        var menuItems=document.querySelectorAll('#nav li a[href*="#"]')
+        for(var i=0;i<menuItems.length;i++){
+            var menuItem=menuItems[i];
+           
+            menuItem.onclick =function(){
+                header.style.height=null;
+            }
+        }
+    </script>
+</body>
+
+</html>
